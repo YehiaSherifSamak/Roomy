@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85A85459237B53810030DFD2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A85458237B53810030DFD2 /* SignUpViewController.swift */; };
+		85A8545B237B796C0030DFD2 /* Checker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A8545A237B796C0030DFD2 /* Checker.swift */; };
+		85A8545D237C564B0030DFD2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A8545C237C564B0030DFD2 /* User.swift */; };
+		85A85460237EE06A0030DFD2 /* NetworkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A8545F237EE06A0030DFD2 /* NetworkManger.swift */; };
+		85A85462238315690030DFD2 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A85461238315690030DFD2 /* NetworkRouter.swift */; };
 		85BD4CE823678D0E000B4F1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BD4CE723678D0E000B4F1E /* AppDelegate.swift */; };
 		85BD4CEA23678D0E000B4F1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BD4CE923678D0E000B4F1E /* SceneDelegate.swift */; };
 		85BD4CEF23678D0E000B4F1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85BD4CED23678D0E000B4F1E /* Main.storyboard */; };
@@ -19,9 +24,18 @@
 		85BD4D072374AE3F000B4F1E /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BD4D062374AE3F000B4F1E /* Room.swift */; };
 		85BD4D092374AED4000B4F1E /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BD4D082374AED4000B4F1E /* Address.swift */; };
 		85BD4D0B2374CC9F000B4F1E /* RoomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BD4D0A2374CC9F000B4F1E /* RoomTableViewCell.swift */; };
+		85BD4D4E2379E65D000B4F1E /* UI Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BD4D4D2379E65D000B4F1E /* UI Extentions.swift */; };
+		A42619C18B4082CF9133A0B6 /* Pods_Roomy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F279707493FD624B7187EF /* Pods_Roomy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E6AE50CBE1EEDDAD9AE4DCC /* Pods-Roomy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roomy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Roomy/Pods-Roomy.release.xcconfig"; sourceTree = "<group>"; };
+		55F248C45E9E5CA494C45495 /* Pods-Roomy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roomy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Roomy/Pods-Roomy.debug.xcconfig"; sourceTree = "<group>"; };
+		85A85458237B53810030DFD2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		85A8545A237B796C0030DFD2 /* Checker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checker.swift; sourceTree = "<group>"; };
+		85A8545C237C564B0030DFD2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		85A8545F237EE06A0030DFD2 /* NetworkManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManger.swift; sourceTree = "<group>"; };
+		85A85461238315690030DFD2 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
 		85BD4CE423678D0E000B4F1E /* Roomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85BD4CE723678D0E000B4F1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85BD4CE923678D0E000B4F1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +50,8 @@
 		85BD4D062374AE3F000B4F1E /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		85BD4D082374AED4000B4F1E /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		85BD4D0A2374CC9F000B4F1E /* RoomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTableViewCell.swift; sourceTree = "<group>"; };
+		85BD4D4D2379E65D000B4F1E /* UI Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI Extentions.swift"; sourceTree = "<group>"; };
+		B3F279707493FD624B7187EF /* Pods_Roomy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roomy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +59,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42619C18B4082CF9133A0B6 /* Pods_Roomy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CB1A34E6F54C0C2BF0DD692 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55F248C45E9E5CA494C45495 /* Pods-Roomy.debug.xcconfig */,
+				0E6AE50CBE1EEDDAD9AE4DCC /* Pods-Roomy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85A8545E237EE0440030DFD2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				85A8545F237EE06A0030DFD2 /* NetworkManger.swift */,
+				85A85461238315690030DFD2 /* NetworkRouter.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		85BD4CDB23678D0E000B4F1E = {
 			isa = PBXGroup;
 			children = (
 				85BD4CE623678D0E000B4F1E /* Roomy */,
 				85BD4CE523678D0E000B4F1E /* Products */,
+				2CB1A34E6F54C0C2BF0DD692 /* Pods */,
+				B98B79A0C916D2FB6BFAFC34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,11 +105,13 @@
 		85BD4CE623678D0E000B4F1E /* Roomy */ = {
 			isa = PBXGroup;
 			children = (
+				85A8545E237EE0440030DFD2 /* Network */,
 				85BD4CE723678D0E000B4F1E /* AppDelegate.swift */,
 				85BD4CE923678D0E000B4F1E /* SceneDelegate.swift */,
 				85BD4CFD23722A4B000B4F1E /* Model */,
 				85BD4CFC23722A43000B4F1E /* Controllers */,
 				85BD4CFB23722A3A000B4F1E /* Views */,
+				85BD4D4C2379E640000B4F1E /* Extentions */,
 				85BD4CF023678D0F000B4F1E /* Assets.xcassets */,
 				85BD4CF523678D0F000B4F1E /* Info.plist */,
 			);
@@ -96,6 +135,7 @@
 				85BD4D0023722AC6000B4F1E /* SignInViewController.swift */,
 				85BD4D0223722AEC000B4F1E /* RoomsTableViewController.swift */,
 				85BD4D0423722B01000B4F1E /* DetailedRoomViewController.swift */,
+				85A85458237B53810030DFD2 /* SignUpViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -105,8 +145,26 @@
 			children = (
 				85BD4D062374AE3F000B4F1E /* Room.swift */,
 				85BD4D082374AED4000B4F1E /* Address.swift */,
+				85A8545A237B796C0030DFD2 /* Checker.swift */,
+				85A8545C237C564B0030DFD2 /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		85BD4D4C2379E640000B4F1E /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				85BD4D4D2379E65D000B4F1E /* UI Extentions.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		B98B79A0C916D2FB6BFAFC34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3F279707493FD624B7187EF /* Pods_Roomy.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85BD4CF823678D0F000B4F1E /* Build configuration list for PBXNativeTarget "Roomy" */;
 			buildPhases = (
+				5EFBF3F3CF7D30705F20E38A /* [CP] Check Pods Manifest.lock */,
 				85BD4CE023678D0E000B4F1E /* Sources */,
 				85BD4CE123678D0E000B4F1E /* Frameworks */,
 				85BD4CE223678D0E000B4F1E /* Resources */,
+				7569413C2EE4C2B3ABF2EFBA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,12 +235,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5EFBF3F3CF7D30705F20E38A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Roomy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7569413C2EE4C2B3ABF2EFBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Roomy/Pods-Roomy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roomy/Pods-Roomy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85BD4CE023678D0E000B4F1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85A8545D237C564B0030DFD2 /* User.swift in Sources */,
+				85A85459237B53810030DFD2 /* SignUpViewController.swift in Sources */,
+				85A85462238315690030DFD2 /* NetworkRouter.swift in Sources */,
+				85A85460237EE06A0030DFD2 /* NetworkManger.swift in Sources */,
+				85A8545B237B796C0030DFD2 /* Checker.swift in Sources */,
 				85BD4D0B2374CC9F000B4F1E /* RoomTableViewCell.swift in Sources */,
+				85BD4D4E2379E65D000B4F1E /* UI Extentions.swift in Sources */,
 				85BD4D0323722AEC000B4F1E /* RoomsTableViewController.swift in Sources */,
 				85BD4CE823678D0E000B4F1E /* AppDelegate.swift in Sources */,
 				85BD4D072374AE3F000B4F1E /* Room.swift in Sources */,
@@ -330,11 +445,13 @@
 		};
 		85BD4CF923678D0F000B4F1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55F248C45E9E5CA494C45495 /* Pods-Roomy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MK2993L76F;
 				INFOPLIST_FILE = Roomy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,17 +459,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yehiasamak.Roomy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		85BD4CFA23678D0F000B4F1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E6AE50CBE1EEDDAD9AE4DCC /* Pods-Roomy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MK2993L76F;
 				INFOPLIST_FILE = Roomy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,7 +479,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yehiasamak.Roomy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
